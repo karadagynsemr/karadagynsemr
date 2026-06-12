@@ -16,7 +16,7 @@
 Computer Engineering graduate. I'm as interested in making ML results understandable as I am in building the models themselves — maybe more so. 
 
 ```python
-yunus = {
+Yunus Emre = {
     "location":  "Alanya, Turkey",
     "focus":     ["Machine Learning", "Explainable AI", "Data Analytics"],
     "learning":  ["Data Science", "MLOps", "Model Deployment", "Deep Learning"],
