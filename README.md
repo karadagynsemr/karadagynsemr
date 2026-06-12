@@ -33,3 +33,7 @@
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=karadagynsemr&show_icons=true&locale=en" alt="karadagynsemr" /></p>
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=karadagynsemr&" alt="karadagynsemr" /></p>
+
+
+![](https://githubusercontent.com)
+
