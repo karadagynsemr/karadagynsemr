@@ -1,0 +1,47 @@
+name: Generate Snake
+
+on:
+
+# Her gün Türkiye saatiyle gece yarısında çalışır
+
+schedule:
+- cron: "0 0 * * *"
+timezone: "Europe/Istanbul"
+
+# Actions sayfasından manuel çalıştırma
+
+workflow_dispatch:
+
+# Ana branch'e değişiklik gönderildiğinde çalıştırma
+
+push:
+branches:
+- main
+- master
+
+permissions:
+contents: write
+
+jobs:
+build:
+runs-on: ubuntu-latest
+timeout-minutes: 5
+
+```
+steps:
+  - name: Generate Snake Animation
+    uses: Platane/snk/svg-only@v3
+    with:
+      github_user_name: karadagynsemr
+      outputs: |
+        dist/github-contribution-grid-snake.svg
+        dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+  - name: Push Snake to Output Branch
+    uses: crazy-max/ghaction-github-pages@v5
+    with:
+      target_branch: output
+      build_dir: dist
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+```
