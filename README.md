@@ -35,5 +35,5 @@
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=karadagynsemr&" alt="karadagynsemr" /></p>
 
 
-![](https://githubusercontent.com)
+![snake gif](https://github.com/karadagynsemr/karadagynsemr/blob/output/github-snake-dark.svg)
 
