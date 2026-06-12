@@ -13,15 +13,13 @@
 
 ## About Me
 
-Computer Engineering graduate. I'm as interested in making ML results understandable as I am in building the models themselves — maybe more so. Currently developing **Explainova**, a no-code machine learning and explainable AI platform.
+Computer Engineering graduate. I'm as interested in making ML results understandable as I am in building the models themselves — maybe more so. 
 
 ```python
 yunus = {
     "location":  "Alanya, Turkey",
     "focus":     ["Machine Learning", "Explainable AI", "Data Analytics"],
-    "building":  "Explainova — no-code ML & XAI platform",
-    "learning":  ["MLOps", "Model Deployment", "Deep Learning"],
-    "contact":   "karadagynsemr@gmail.com"
+    "learning":  ["Data Science", "MLOps", "Model Deployment", "Deep Learning"],
 }
 ```
 
