@@ -18,21 +18,14 @@ Computer Engineering graduate passionate about **Artificial Intelligence, Comput
 I enjoy building intelligent applications with **PyTorch, FastAPI and Python**, from data preparation and deep learning models to deployment. I also enjoy making AI systems practical, efficient and easy to use.
 
 ```python
-yunus = {
+Yunus Emre = {
     "location": "Turkey",
     "interests": [
         "Artificial Intelligence",
         "Computer Vision",
         "Machine Learning",
         "Deep Learning",
-        "Edge AI"
-    ],
-    "currently_learning": [
-        "MLOps",
-        "LLMs",
-        "Model Optimization"
     ]
-}
 ```
 
 ---
